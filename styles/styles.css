@@ -6,3 +6,19 @@
 .hidden {
     display: none;
 }
+
+.error {
+    color: red;
+}
+
+.cars-wrapper {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    row-gap: 8px;
+    border: 2px solid lightgray;
+    border-radius: 3px;
+}
+
+.cars-wrapper > div {
+    background: lightblue;
+}
